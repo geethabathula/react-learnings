@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 5px;
+  gap: 5px;
+}
+
+h1 {
+  color: #f4845f;
+}
+
+h4 {
+  color: #43aa8b;
+}
+
+.users-data {
+  background-color: #b6ccfe;
+  color: #720026;
+}

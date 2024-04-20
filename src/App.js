@@ -4,11 +4,12 @@
 // import AddtoList from "./useState/AddtoList";
 // import Counter from "./useEffect/Counter";
 // import UsersAPi from "./useEffect/UsersAPi";
-import Cocktail from "./useEffect/Cocktail"
+// import Cocktail from "./useEffect/Cocktail";
+import C from "./useContext/C";
 function App() {
   return (
     <>
-      <Cocktail />
+      <C />
     </>
   );
 }
