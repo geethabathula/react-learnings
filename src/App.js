@@ -7,12 +7,13 @@
 // import Cocktail from "./useEffect/Cocktail";
 // import C from "./useContext/C";
 // import Users from "./useReducer/Users";
-import UsersFromAPI from "./useReducer/UsersFromAPI";
+// import UsersFromAPI from "./useReducer/UsersFromAPI";
+// import InputFocus from "./useRef/InputFocus";
+import ChangeTheme from "./useMemo/ChangeTheme";
 function App() {
   return (
     <>
-      <UsersFromAPI />
-
+      <ChangeTheme />
     </>
   );
 }
