@@ -11,3 +11,5 @@ This repository contains code samples and projects related to my learning journe
   - useEffect
   - useContext
   - useReducer
+  - useMemo Hook
+  - useCallback and React.memo()

@@ -10,10 +10,11 @@
 // import UsersFromAPI from "./useReducer/UsersFromAPI";
 // import InputFocus from "./useRef/InputFocus";
 import ChangeTheme from "./useMemo/ChangeTheme";
+import ParentComp from "./useCallback/ParentComp";
 function App() {
   return (
     <>
-      <ChangeTheme />
+      <ParentComp />
     </>
   );
 }
