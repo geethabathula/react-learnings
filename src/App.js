@@ -5,11 +5,14 @@
 // import Counter from "./useEffect/Counter";
 // import UsersAPi from "./useEffect/UsersAPi";
 // import Cocktail from "./useEffect/Cocktail";
-import C from "./useContext/C";
+// import C from "./useContext/C";
+// import Users from "./useReducer/Users";
+import UsersFromAPI from "./useReducer/UsersFromAPI";
 function App() {
   return (
     <>
-      <C />
+      <UsersFromAPI />
+
     </>
   );
 }

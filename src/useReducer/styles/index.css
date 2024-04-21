@@ -1,0 +1,76 @@
+/* For Users.js */
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 2px;
+  gap: 7px;
+}
+
+h1 {
+  color: #5a189a;
+}
+
+h4 {
+  color: #43aa8b;
+}
+
+.users-data {
+  margin: 2rem;
+  padding: 2rem;
+  width: 200px;
+  color: #720026;
+  background-color: #b6ccfe;
+} */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #5a189a;
+}
+
+h4 {
+  color: #43aa8b;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  padding: 2rem;
+  background-color: #b6ccfe;
+  color: #720026;
+  font-size: 1.5rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+button {
+  margin: 1rem;
+  height: 30px;
+  width: 80px;
+  background-color: #efea5a;
+  color: #bf4342;
+  border: none;
+  border-radius: 5px;
+}

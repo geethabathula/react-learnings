@@ -2,7 +2,7 @@ import { UserContext } from "./UserContext";
 import { useContext } from "react";
 import './styles/index.css';
 import Button from '@mui/material/Button';
-import { Typography } from '@mui/material'
+import { Typography } from '@mui/material';
 
 export default function B() {
     const { count, setCount } = useContext(UserContext);

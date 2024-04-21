@@ -9,3 +9,5 @@ This repository contains code samples and projects related to my learning journe
 - React Hooks
   - useState
   - useEffect
+  - useContext
+  - useReducer
