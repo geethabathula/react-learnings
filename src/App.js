@@ -9,12 +9,15 @@
 // import Users from "./useReducer/Users";
 // import UsersFromAPI from "./useReducer/UsersFromAPI";
 // import InputFocus from "./useRef/InputFocus";
-import ChangeTheme from "./useMemo/ChangeTheme";
-import ParentComp from "./useCallback/ParentComp";
+// import ChangeTheme from "./useMemo/ChangeTheme";
+// import ParentComp from "./useCallback/ParentComp";
+import Counter1 from "./customhook/Counter1";
+import Counter2 from "./customhook/Counter2";
 function App() {
   return (
     <>
-      <ParentComp />
+      <Counter1 />
+      <Counter2 />
     </>
   );
 }
