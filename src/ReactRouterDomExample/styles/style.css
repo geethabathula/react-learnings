@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6ccb2;
+  height: 5rem;
+}
+
+h1 {
+  margin: 2rem;
+  color: #540b0e;
+  text-align: center;
+}
+
+h1::after {
+  content: " *** ";
+}
+
+h1::before {
+  content: " *** ";
+}
+
+.navlinks {
+  font-size: 1.4rem;
+  font-weight: 900;
+  letter-spacing: 0.2rem;
+  text-decoration: none;
+  color: #540b0e;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+a.active {
+  background-color: #c7eae4;
+}
+
+.nav-links:visited {
+  text-decoration: none;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: #540b0e;
+  color: #e6ccb2;
+  height: 3rem;
+  width: 5rem;
+}
+
+h2 {
+  font-size: 2.9rem;
+  color: red;
+  text-align: center;
+}

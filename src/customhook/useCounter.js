@@ -14,7 +14,6 @@ function useCounter() {
     function resetCount() {
         setCount(0);
     }
-
     return [count, incCount, decCount, resetCount];
 }
 

@@ -13,3 +13,6 @@ This repository contains code samples and projects related to my learning journe
   - useReducer
   - useMemo Hook
   - useCallback and React.memo()
+  - custom hooks
+- React Router DOM
+  - useNavigate
