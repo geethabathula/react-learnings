@@ -16,3 +16,4 @@ This repository contains code samples and projects related to my learning journe
   - custom hooks
 - React Router DOM
   - useNavigate
+  - useParams (Dynamic Routing)

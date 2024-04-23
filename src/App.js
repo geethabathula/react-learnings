@@ -20,6 +20,12 @@ import AboutPage from "./ReactRouterDomExample/AboutPage";
 import ContactUsPage from "./ReactRouterDomExample/ContactUsPage";
 import ClickMe from "./ReactRouterDomExample/ClickMe";
 import NotFound from "./ReactRouterDomExample/NotFound";
+import Projects from "./ReactRouterDomExample/Projects";
+import FeaturedProjects from "./ReactRouterDomExample/FeaturedProjects";
+import LiveProjects from "./ReactRouterDomExample/LiveProjects";
+import Users from "./ReactRouterDomExample/Users";
+import UserDetails from "./ReactRouterDomExample/UserDetails";
+
 function App() {
   return (
     <>
@@ -31,6 +37,13 @@ function App() {
         <Route path="/clickme" element={<ClickMe />} />
         {/* * means if any path is not matched it renders that particular component */}
         <Route path="*" element={<NotFound />} />
+        <Route path="/projects" element={<Projects />}>
+          <Route index element={<FeaturedProjects />} />
+          <Route path="featured" element={<FeaturedProjects />} />
+          <Route path="live" element={<LiveProjects />} />
+        </Route>
+        <Route path="/users" element={<Users />} />
+        <Route path="/users/:userId" element={<UserDetails />} />
       </Routes>
     </>
   );
